@@ -1,7 +1,10 @@
 @media screen and (min-width:576px) {
 
 
-
+    a {
+        color: black;
+        text-decoration: none;
+    }
 
 
     .alert-info{
@@ -47,9 +50,46 @@
         background: lightgray;
     }
 
-    header-img {
-        width: 339px;
-        height: 224px;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    footer {
+        display: flex;
+        align-items: baseline;
+    }
+
+    footer p{
+        font-family: Arial;
+        display: flex;
+        /*flex-direction: column;*/
+        flex-basis: 85%;
+    }
+
+    /*footer:nth-of-type(2){*/
+    /*    align-items: flex-end*/
+    /*}*/
+
+    h2 {
+        font-family: sans-serif;
+        font-size: 2em;
+        margin-bottom: ;
+    }
+
+    section {
+        font-size: 1.3em;
+        font-family: sans-serif;
+        margin-bottom: 2em;
+    }
+
+    .sub-section {
+        font-style: italic;
+        margin-bottom: 4em;
+    }
+
+     #social-media-links {
+        display: flex;
+        align-items: right;
     }
 
 }
