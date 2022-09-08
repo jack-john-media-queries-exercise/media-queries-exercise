@@ -1,15 +1,13 @@
 @media screen and (min-width:576px) {
 
-    a {
-        color: black;
-        text-decoration: none;
-    }
+
+
+
 
     .alert-info{
         font-family: sans-serif;
         flex-direction: column;
         display: flex;
-        text-decoration: none;
         border: 2px solid gray;
         padding: 20px;
         align-items: center;
